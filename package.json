@@ -4,7 +4,7 @@
   "description": "typescript - phaser - test suite boilerplate",
   "scripts": {
     "test": "/usr/local/bin/phantomjs ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html",
-    "build": "tsc;cp ./node_modules/phaser-ce/build/phaser.min.js intermediate;r.js -o scripts/build.js"
+    "build": "tsc;cp ./node_modules/phaser-ce/build/phaser.min.js intermediate;r_js -o scripts/build.js"
   },
   "author": "Sean Holden",
   "license": "ISC",
