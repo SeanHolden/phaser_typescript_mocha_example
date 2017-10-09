@@ -1,4 +1,4 @@
-let expect = chai.expect;
+var expect = chai.expect;
 
 describe('#foo', function () {
     it('returns correct value', function () {

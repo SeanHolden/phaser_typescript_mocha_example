@@ -1,3 +1,1 @@
-window.onload = () => {
-    var game = new Castlevania.Game();
-};
+let game = new Castlevania.Game();

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "typescript - phaser - test suite boilerplate",
   "scripts": {
-    "test": "/usr/local/bin/phantomjs ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html"
+    "test": "/usr/local/bin/phantomjs ./node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html",
+    "build": "tsc;cp ./node_modules/phaser-ce/build/phaser.min.js intermediate;r.js -o scripts/build.js"
   },
   "author": "Sean Holden",
   "license": "ISC",
@@ -18,6 +19,7 @@
   "dependencies": {
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.43",
+    "requirejs": "^2.3.5",
     "typescript": "^2.5.3"
   }
 }
